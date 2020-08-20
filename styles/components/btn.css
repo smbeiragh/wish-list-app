@@ -1,0 +1,48 @@
+.c-input {
+    @apply bg-white border border-gray-300 rounded-sm py-2 px-4 block w-full appearance-none leading-normal
+}
+
+.c-input:focus {
+    @apply outline-none shadow-outline
+}
+
+.btn-indigo {
+    @apply bg-indigo-500 text-white font-bold py-2 px-4 rounded uppercase;
+}
+.btn-indigo:hover {
+    @apply bg-indigo-700;
+}
+
+.btn-indigo-outline {
+    @apply bg-transparent text-indigo-700 font-semibold py-2 px-4 border border-indigo-500 rounded uppercase
+}
+
+.btn-indigo-outline:hover {
+    @apply bg-indigo-500 text-white border-transparent
+}
+
+.btn-yellow {
+    @apply bg-yellow-600 text-white font-bold py-2 px-4 rounded uppercase;
+}
+.btn-yellow:hover {
+    @apply bg-yellow-700;
+}
+
+.btn-gray {
+    @apply bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded uppercase;
+}
+.btn-gray:hover {
+    @apply bg-gray-500;
+}
+
+.btn-red-outline {
+    @apply bg-transparent text-red-700 font-semibold py-2 px-4 border border-red-500 rounded uppercase
+}
+
+.btn-red-outline:hover {
+    @apply bg-red-500 text-white border-transparent
+}
+
+.btn-large {
+    @apply px-6 py-4
+}
